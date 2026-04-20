@@ -3,7 +3,8 @@
 ## Summary
 
 This project demonstrates the end-to-end process of containerizing a static web application using Docker and deploying it to a local Kubernetes cluster with Minikube. The application is exposed via a Kubernetes Service and accessed through a browser, showcasing a complete container-to-cluster deployment workflow.
-_____________________________________________________________________________________________________________________________________________Key Highlights
+
+Key Highlights
 
 * Built and containerized a web application using Docker
 * Deployed the container to a Kubernetes cluster (Minikube)
