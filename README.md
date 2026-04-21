@@ -89,3 +89,52 @@ Minikube generated a URL that provides access to the application through the Kub
 The application is successfully running and accessible in the browser through the Kubernetes cluster, completing the full deployment workflow.
 
 ![App Kubernetes](screenshots/11-app-kubernetes.png)
+
+---
+
+### 12. Local Docker Images
+Verified that the Docker image was successfully built and available locally.
+
+![Local Docker Images](screenshots/12-docker-images-local.png)
+
+---
+
+### 13. Docker Login
+Authenticated to Docker Hub to enable pushing images to the remote registry.
+
+![Docker Login](screenshots/13-docker-login-success.png)
+
+---
+
+### 14. Image Tagging
+Tagged the local Docker image with the Docker Hub repository name to prepare it for upload.
+
+![Tagged Image](screenshots/14-docker-tagged-image.png)
+
+---
+
+### 15. Docker Push
+Pushed the Docker image to Docker Hub. The output confirms successful upload of image layers.
+
+![Docker Push](screenshots/15-docker-push-success.png)
+
+---
+
+### 16. Docker Pull
+Pulled the image from Docker Hub to verify it can be retrieved from the registry.
+
+![Docker Pull](screenshots/16-docker-pull-success.png)
+
+---
+
+### 17. Container Running from Registry
+Started a container using the image from Docker Hub and verified it is running.
+
+![Container Running](screenshots/17-container-running-from-registry.png)
+
+---
+
+### 18. Application Running from Registry
+Accessed the application in the browser using localhost, confirming successful deployment from the Docker registry.
+
+![App Running](screenshots/18-app-running-from-registry-browser.png)
